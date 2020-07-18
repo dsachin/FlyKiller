@@ -1,0 +1,51 @@
+name: fly_killer
+description: Lets Kill some flies.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.3
+  flame: ^0.21.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bg/backyard.png
+    - assets/images/flies/agile-fly-1.png
+    - assets/images/flies/agile-fly-2.png
+    - assets/images/flies/agile-fly-dead.png
+    - assets/images/flies/drooler-fly-1.png
+    - assets/images/flies/drooler-fly-2.png
+    - assets/images/flies/drooler-fly-dead.png
+    - assets/images/flies/house-fly-1.png
+    - assets/images/flies/house-fly-2.png
+    - assets/images/flies/house-fly-dead.png
+    - assets/images/flies/hungry-fly-1.png
+    - assets/images/flies/hungry-fly-2.png
+    - assets/images/flies/hungry-fly-dead.png
+    - assets/images/flies/macho-fly-1.png
+    - assets/images/flies/macho-fly-2.png
+    - assets/images/flies/macho-fly-dead.png
+    - assets/images/bg/lose-splash.png
+    - assets/images/branding/title.png
+    - assets/images/ui/dialog-credits.png
+    - assets/images/ui/dialog-help.png
+    - assets/images/ui/icon-credits.png
+    - assets/images/ui/icon-help.png
+    - assets/images/ui/start-button.png
+    - assets/images/ui/callout.png
